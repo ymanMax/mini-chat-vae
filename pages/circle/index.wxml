@@ -1,0 +1,43 @@
+<!--pages/circle/index.wxml-->
+<navbar fixed>
+  <view slot="left" class="search-icon"></view>
+  <view slot="center" class="navbar-center">
+    <tabbar tabs="{{tabs}}" current="{{currentIndex}}" bind:change-tab="changeTab" />
+  </view>
+</navbar>
+
+<!-- 广场 -->
+<!-- <view style="display: {{currentIndex === 0 ? 'block':'none'}}" class="square">
+  <square />
+</view> -->
+
+<!-- 热门 -->
+<!-- <view style="display: {{currentIndex === 1 ? 'block':'none'}}" class="hot">
+  <hot />
+</view> -->
+
+<!-- 关注 -->
+<!-- <view style="display: {{currentIndex === 2 ? 'block':'none'}}" class="attention">
+  <attention />
+</view> -->
+
+<swiper class="content" style="height: {{swiperHeight}}px;" current="{{currentIndex}}" bindchange="handleSwiperChange">
+  <swiper-item class="item">
+    <view class="swiper-item">
+      <square />
+      <view>快写一首情歌雅输共赏</view>
+    </view>
+  </swiper-item>
+  <swiper-item class="item">
+    <view class="swiper-item">
+      <square />
+      <view>你提过的好地方，我标在地图上</view>
+    </view>
+  </swiper-item>
+  <swiper-item class="item">
+    <view class="swiper-item">
+      <square />
+      <view>飞上枝头的都风趣，占了巢的都在窃喜</view>
+    </view>
+  </swiper-item>
+</swiper>

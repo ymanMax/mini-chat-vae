@@ -1,0 +1,27 @@
+/**index.wxss**/
+.oper-bars {
+  display: flex;
+  justify-content:space-around ;
+  margin: 30rpx 50rpx 0;
+}
+
+.common-margin {
+  margin-top: 40rpx;
+}
+
+.dynamic {
+  margin-top: 50rpx;
+}
+
+.vae-swipper {
+  height: 320rpx;
+  margin-top: 40rpx;
+}
+
+.vae-swipper .item .board {
+  position: relative;
+  left: 20rpx;
+  margin-right: 26rpx;
+}
+
+

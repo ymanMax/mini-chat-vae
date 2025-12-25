@@ -1,0 +1,10 @@
+<!--pages/find/index.wxml-->
+<image class="img" src="/assets/vaeimg/banner3.jpg" mode="widthFix"></image>
+
+<view class="search-container">
+  <input class="search" placeholder="输入对方的ID号或昵称" placeholder-class="search-place" />
+</view>
+
+<view class="operation">
+  <menu-group menus="{{menus}}" />
+</view>

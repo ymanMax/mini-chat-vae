@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "menu-group": "/components/menu-group/index"
+  },
+  "navigationStyle": "custom"
+}

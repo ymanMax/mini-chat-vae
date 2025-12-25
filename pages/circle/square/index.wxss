@@ -1,0 +1,4 @@
+/* pages/circle/square/index.wxss */
+.mt {
+  margin-top: 20rpx;
+}

@@ -1,0 +1,10 @@
+/**app.wxss**/
+.common-margin {
+  margin: 0 40rpx;
+}
+
+.clearfix::after {
+  content: ""; 
+  display: block;
+  clear: both;
+}

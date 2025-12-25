@@ -1,0 +1,7 @@
+<!--pages/circle/square/index.wxml-->
+<!-- 顶部菜单 -->
+<menus />
+
+<!-- 热门话题 -->
+<hot-topic class="mt" />
+

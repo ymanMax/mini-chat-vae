@@ -1,0 +1,12 @@
+<!--components/tabbar/index.wxml-->
+<view class="tabbar">
+  <block wx:for="{{tabs}}" wx:key="name">
+    <view class="item {{ activeIndex === index ? 'active':'' }}"
+          bindtap="itemClick"
+          data-index="{{index}}" >
+      <text>{{item.name}}</text>
+      <view class="line"></view>
+      <view wx:if="{{item.isDot}}" class="dot"></view>
+    </view>
+  </block>
+</view>
